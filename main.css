@@ -1,0 +1,125 @@
+body{
+    background-color: #E0EEC2;
+}
+#logo{
+    position: relative;
+    margin: 30px ;
+    top: 34px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+header{
+    position: relative;
+}
+.opt{
+    position: relative;
+    left: 76%;
+    display: flex;
+    justify-content: space-around;
+    width: 320px;
+
+}
+.opt a{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    z-index: 1001;
+}
+#firstimg,#secondimg{
+    position: relative;
+    left: 140px;
+    height: 120px;
+}
+#firstimg{
+    top: 40px;
+}
+.form{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    left: 26%;
+    background-color: #C3D2A4;
+    border-radius: 20px;
+    text-align: center;
+    width: 620px;
+}
+.form h3{
+    position: relative;
+    top: 80px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.form input{
+    margin-top: 80px;
+    width: 480px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+#short-btn{
+    position: relative;
+    margin-top: 20px;
+    background-color: #A0B288;
+    border-radius: 7px;
+    border: none;
+    font-size: 1.2rem;
+    transition: 0.7s;
+}
+#short-btn:hover{
+    transform: scale(1.2);
+}
+.shortend-url{
+    margin-top: 80px;
+    background-color: white;   
+    width: 420px;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    left: 16%;
+}
+#copy-btn{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: #A0B288;
+    border-radius: 7px;
+    border: none;
+    font-size: 1.2rem;
+    transition: 0.7s;
+}
+#copy-btn:hover{
+    transform: scale(1.2);
+}
+footer{
+    background-color: #E0EEC2;
+    font-family: 'Poppins', sans-serif;
+}
+.foot{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+    position: relative;
+    left: 140px;
+}
+.foot a{
+    position: relative;
+    bottom: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.665);
+}
+.social-media{
+    margin-top: 50px;
+    margin-left: 570px;
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+footer p{
+    font-weight: bold;
+    text-align: center;
+}
